@@ -1,0 +1,169 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "f1b6b0ee-4bc7-43d8-8eb9-157c448a5c3f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Celsius to Fahrenheit\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter temperature in Celsius:  7\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Temperature in Fahrenheit: 44.6\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Celsius to Fahrenheit\")\n",
+    "\n",
+    "c = float(input(\"Enter temperature in Celsius: \"))\n",
+    "f = (c * 9/5) + 32\n",
+    "print(\"Temperature in Fahrenheit:\", round(f, 2))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "79e13c94-0c73-4c33-bb0d-62fb9445690c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Kelvin to Celsius\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter temperature in Kelvin:  7\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Temperature in Celsius: -266.15\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Kelvin to Celsius\")\n",
+    "\n",
+    "k = float(input(\"Enter temperature in Kelvin: \"))\n",
+    "c = k - 273.15\n",
+    "print(\"Temperature in Celsius:\", round(c, 2))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "dd9173f1-59b8-40d6-a8e4-828a58be438c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Fahrenheit to Celsius\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter temperature in Fahrenheit:  7\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Temperature in Celsius: -13.89\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Fahrenheit to Celsius\")\n",
+    "\n",
+    "f = float(input(\"Enter temperature in Fahrenheit: \"))\n",
+    "c = (f - 32) * 5/9\n",
+    "print(\"Temperature in Celsius:\", round(c, 2))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "d03115aa-4aef-453a-b908-a62c9be73f97",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Celsius to Kelvin\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter temperature in Celsius:  1\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Temperature in Kelvin: 274.15\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"Celsius to Kelvin\")\n",
+    "\n",
+    "c = float(input(\"Enter temperature in Celsius: \"))\n",
+    "k = c + 273.15\n",
+    "print(\"Temperature in Kelvin:\", round(k, 2))"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
