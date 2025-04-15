@@ -1,4 +1,4 @@
-
+def convert_temperature(value, from_unit, to_unit):
 def celsius_to_fahrenheit(c): 
     return (c * 9/5) + 32
 
@@ -74,5 +74,5 @@ def main():
     except Exception as e:
         print(f"Error: {e}")
 
-if __name__ == "__main__":
+if __name__ == "main":
     main()
